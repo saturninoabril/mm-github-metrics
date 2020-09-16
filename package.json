@@ -1,0 +1,19 @@
+{
+  "author": "Saturnino Abril",
+  "name": "mm-gh-metrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx prettier --single-quote --trailing-comma all --print-width 120 --tab-width 4 --no-bracket-spacing --write ."
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "knex": "0.21.2",
+    "moment": "2.27.0",
+    "pg": "8.3.0",
+    "yargs": "15.4.1"
+  }
+}
